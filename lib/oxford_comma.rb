@@ -8,5 +8,5 @@ else array.size > 2
   array = array.join(",")
   array = array + " and " + popped
 
-
+end
 end
