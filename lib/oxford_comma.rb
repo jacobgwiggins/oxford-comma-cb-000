@@ -1,13 +1,12 @@
 def oxford_comma(array)
-when array.size == 1
+if array.size <2
   array.join
-when  array.size == 2
+elsif  array.size == 2
   array = array.join(" and ")
-when array.size > 2
+else array.size > 2
   popped = array.pop
   array = array.join(",")
   array = array + " and " + popped
-  
-  
-end
 
+
+end
