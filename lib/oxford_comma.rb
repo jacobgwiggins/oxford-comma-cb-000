@@ -5,7 +5,7 @@ elsif  array.size == 2
   array = array.join(" and ")
 else array.size > 2
   popped = array.pop
-  array = array.join(",")
+  array = array.join(", ")
   array = array + " and " + popped
 
 end
